@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.env.*
+
+# Model / training artifacts
+model/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Data outputs
+*.csv
+!data/*.csv
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Coverage / test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
