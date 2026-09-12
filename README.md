@@ -111,8 +111,10 @@ customer_churn_project/
 │   └── churn_analysis.ipynb
 │
 ├── api/
-│   ├── app.py
-│   └── churn_model.pkl
+│   └──  app.py
+│
+├── model/
+│   └──  churn_model.pkl
 │
 ├── requirements.txt
 └── README.md
